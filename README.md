@@ -31,7 +31,11 @@ Deep Learning (IF25-40401) · Teknik Informatika ITERA · Semester Ganjil 2026/2
 | Preview 2 (21 Okt) | | **1.0000 (Epoch 20)** | |
 | Final (25 Okt)     | | | |
 
-Catatan eksperimen singkat (apa yang dicoba, apa yang berhasil/gagal):
+### Eksperimen (21 Oktober 2026)
+
+Model ConvNeXt-Tiny dilatih selama 20 epoch dengan batch size 4 dan learning rate 2e-4. Pada validasi lokal 15% (sekitar 410 gambar), model memperoleh Macro-F1 terbaik sebesar **0,9537** dan akurasi **0,9561** pada epoch ke-16.
+
+Untuk submission final, model dilatih ulang menggunakan seluruh data `train` dengan mode `--full`. Skor 1,0000 yang muncul saat evaluasi pada `my_val` tidak digunakan sebagai ukuran performa karena data tersebut ikut digunakan dalam pelatihan. Performa model pada data baru akan dinilai melalui validasi tersembunyi.
 
 ## Cara Reproduksi
 
