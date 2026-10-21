@@ -7,7 +7,7 @@ Deep Learning (IF25-40401) · Teknik Informatika ITERA · Semester Ganjil 2026/2
 | No | Nama Lengkap | NIM | Kontribusi utama |
 |----|--------------|-----|------------------|
 | 1  |        Romualdus Hary Prabowo      |   123140083  |                  |
-| 2  |        Memory Simanjuntak      |123140099     |                  |
+| 2  |        Memory Simanjuntak      |123140095     |                  |
 | 3  |       Juliani Leony Putri Melati Manalu       |    123140029 |                  |
 
 ## Ringkasan Pendekatan
