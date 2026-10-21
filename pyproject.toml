@@ -1,0 +1,25 @@
+[project]
+name = "studio-proyek2-dl-ra"
+version = "0.1.0"
+description = "Studio 2 - Klasifikasi Sampah (ConvNeXt-Tiny)"
+requires-python = ">=3.12"
+dependencies = [
+"torch",
+"torchvision",
+"pillow",
+"numpy",
+]
+
+[tool.uv]
+package = false
+no-build-isolation-package = []
+index-url = "https://pypi.org/simple"
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }
+torchvision = { index = "pytorch-cu121" }

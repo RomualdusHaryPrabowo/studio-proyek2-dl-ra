@@ -1,0 +1,10 @@
+# JANGAN unggah dataset (aturan lisensi tugas)
+train/
+my_train/
+my_val/
+*.csv
+!submission/requirements.txt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
