@@ -6,7 +6,7 @@ Deep Learning (IF25-40401) · Teknik Informatika ITERA · Semester Ganjil 2026/2
 
 | No | Nama Lengkap | NIM | Kontribusi utama |
 |----|--------------|-----|------------------|
-| 1  |        Romualdus Hary Prabowo      |   123140083  |                  |
+| 1  |        Romualdus Hary Prabowo      |   123140083  | Menyusun strategi pengerjaan proyek, mengembangkan dan melatih model klasifikasi ConvNeXt-Tiny berbasis pretrained ImageNet, membangun pipeline training dan evaluasi, serta melakukan eksperimen. |
 | 2  |        Memory Simanjuntak      |123140095     |                  |
 | 3  |       Juliani Leony Putri Melati Manalu       |    123140029 | Menyusun dan melatih model klasifikasi ConvNeXt-Tiny (fine-tuning pretrained ImageNet, EMA, flip-TTA), membangun pipeline training dan evaluasi (`train.py`, `submission/model.py`), menjalankan eksperimen (ensemble, data tambahan TrashNet, variasi inferensi, pencarian label salah), dan mencapai Macro-F1 lokal 0,9790.         |
 
